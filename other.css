@@ -1,0 +1,58 @@
+body {
+    
+background:url(./timg.jpg) 0 0 repeat;  
+padding: 2em;
+    
+font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+
+
+.boxes{font-size:24px; color:#F00;}
+.small{font-size:20px; color:#F00;}
+.container{
+  padding: 25px;width: 60%;
+    margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+}
+.container p{
+  color: #FFFFFF;
+}
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  .container{
+    background-color:#000000;
+    filter:Alpha(opacity=50);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+  .container p{
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+  }  
+}
+label {
+    display:block;
+    margin-bottom:10px;
+}
+
+input {
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+button {
+    margin: 3em 0;
+   padding: 1em 4em;
+    display:block;
+}
+
+
+select {
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+#info {
+    padding:1em;
+    background-color:#aa0;
+    margin: 1em 0;
+}

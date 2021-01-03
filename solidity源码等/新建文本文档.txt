@@ -1,0 +1,2 @@
+启动以太坊命令
+geth --datadir "./" --nodiscover --networkid 666 --port 6000 --rpc --rpccorsdomain "*" console
