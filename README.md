@@ -1,5 +1,4 @@
-# Drug-Traceability-System
-大四上学期区块链大作业：基于以太坊Geth和web3.js开发的药品溯源系统
+# 基于以太坊Geth和web3.js的药品溯源系统
 
 启动以太坊命令
 
